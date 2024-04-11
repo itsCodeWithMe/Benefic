@@ -1,0 +1,33 @@
+{
+    "Attributes": {
+      "Heading": "We’re Serving Globally",
+      "Para": "Let’s Work Together"
+    },
+    "Spinning_section": {
+      "text1": {
+        "heading": "1250+",
+        "initialHeading": "Initial Heading",
+        "para": "Completed Projects",
+        "initialHeadingBool": false
+      },
+      "text2": {
+        "heading": "50+",
+        "initialHeading": "Initial Heading",
+        "para": "Industry sectors",
+        "initialHeadingBool": false
+      },
+      "text3": {
+        "heading": "150+",
+        "initialHeading": "Initial Heading",
+        "para": "Expert in team and technology",
+        "initialHeadingBool": false
+      },
+      "text4": {
+        "heading": "4.8/5",
+        "initialHeading": "Clutch",
+        "para": "Client rating",
+        "initialHeadingBool": true
+      }
+    }
+  }
+  

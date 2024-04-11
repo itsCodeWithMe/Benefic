@@ -1,0 +1,44 @@
+{
+    "Attributes":{
+"heading":"Services",
+"para":"We are dedicated team of storytellers <br/>thinking and problem solving"
+},
+"Cards":{
+    "Card1":{
+        "heading":"UI/UX <br/> Design",
+        "para":"UI/UX expertise we've developed has become the link between our clients and their target audience. We position your company as a leader in your market through eye-catching web design, mobile app design, and more for a positive user experience.",
+        "image":""
+    },
+    "Card2":{
+        "heading":"Web <br/> Application",
+        "para":"We can help you create an impressive online presence that draws new customers, keeps old ones, and increases customer confidence in your company. Take advantage of our web design services today. Put your brand's personality across with bespoke design.",
+        "image":""
+
+    },
+    "Card3":{
+        "heading":"Mobile <br/> Application",
+        "para":"Benefic manages the whole mobile application development cycle, regardless of how diverse or complex your requirements are. Our ability to meet your objectives is a result of our experienced team's years of expertise in the global application solution and product engineering sectors.",
+        "image":""
+
+    },
+    "Card4":{
+        "heading":"Digital <br/> Marketing",
+        "para":"We are a digital marketing agency that helps our clients develop. We counsel, strategize, and execute to deliver #DigitalExcellence in Search, Content, Social Media, Website Design, and Mobile Advertising.",
+        "image":""
+
+    },
+    "Card5":{
+        "heading":"Cloud <br/> Infrastructure",
+        "para":"We help you build public clouds, administer private clouds, or provide cloud computing services like Infrastructure-as-a-Service, Platform-as-a-Service, and Software-as-a-Service (SaaS).",
+        "image":""
+
+    },
+    "Card6":{
+        "heading":"Robotics and <br/> Automation",
+        "para":"We are dedicated team of storytellers thinking and problem solving",
+        "image":""
+    }
+}
+
+}
+

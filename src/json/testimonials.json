@@ -1,0 +1,23 @@
+{"Attributes":{
+    "Heading":"Testimonials",
+    "Para":"What People Say"
+},
+  "Cards":{  
+    "Card1":{
+    "heading":"Nate C.",
+    "span":"Manager",
+    "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+},
+    "Card2":{
+    "heading":"Nate C.",
+    "span":"Manager",
+    "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+},
+    "Card3":{
+    "heading":"Nate C.",
+    "span":"Manager",
+    "para":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et"
+}
+
+
+}}
