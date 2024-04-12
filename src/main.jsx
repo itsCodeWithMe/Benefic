@@ -5,10 +5,12 @@ import "./index.css";
 import { RouterProvider,createBrowserRouter } from "react-router-dom";
 import * as Imports from "./components/Imports.jsx"
 import Homepage from "./Pages/Homepage.jsx";
-
+import ContactPage
+ from "./Pages/ContactPage.jsx";
 const routing=createBrowserRouter([
     {path:"/",element:<App/>,children:[
       {path:"/", element:<Homepage/>},
+      {path:"/contact-us",element:<ContactPage/>},
       {path:"/contact",element:<Imports.Form/>}
     ]},
     { }
