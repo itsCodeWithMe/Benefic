@@ -1,0 +1,22 @@
+{
+    "Card1":{
+        "head":"50+",
+        "para":"Technologies Worked"
+    },
+    "Card2":{
+        "head":"200+",
+        "para":"Happy Clients"
+    },
+    "Card3":{
+        "head":"1250+",
+        "para":"Projects Completed"
+    },
+    "Card4":{
+        "head":"150+",
+        "para":"Experts in Team"
+    },
+    "Card5":{
+        "head":"18+",
+        "para":"Industries Served"
+    }
+}

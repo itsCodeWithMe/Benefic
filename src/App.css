@@ -2,6 +2,29 @@
   font-family: "Greycliff CF";
 }
 
+.animation-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.animation-section img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.zoomed {
+  transform: scale(1); /* Scale to 1 when in viewport */
+}
+
+.animation-section img:not(.zoomed) {
+  transform: scale(0.5); /* Scale to 0.5 when not in viewport */
+}
+
+
+
 .fw-600 {
   font-weight: 600;
 }
@@ -108,7 +131,6 @@
   height: 178px;
   top: -45px;
   right: -40px;
-
 }
 .goalsandaboutTemplate .our_goals::after {
   position: absolute;
@@ -156,8 +178,13 @@
   background-size: 100% 100%;
 }
 
-.banner_section h2 {
+.banner_section h1 {
   font-size: 54px;
+}
+.banner_about h1 {
+  font-size: 42x;
+  line-height: 50px;
+  text-transform: uppercase;
 }
 
 .banner_section h5 span {
@@ -166,7 +193,8 @@
 }
 
 .banner_section a,
-.form a {
+.form a,
+.banner_about a {
   font-size: 20px;
   border-radius: 58px;
   background: #003d73;
@@ -320,7 +348,7 @@ section.tech_sec .owl-carousel .item h4 {
 /* Form section */
 
 /*Header*/
-.header ul{
+.header ul {
   align-items: center !important;
 }
 .header .navbar-nav .nav-link {
@@ -332,7 +360,7 @@ section.tech_sec .owl-carousel .item h4 {
 }
 .header .navbar-nav .nav-item:last-child .nav-link:hover {
   color: white;
-  background-color:#62a83a ;
+  background-color: #62a83a;
 }
 
 .header .navbar-nav .nav-item:last-child .nav-link {
@@ -455,8 +483,48 @@ section.tech_sec .owl-carousel .item h4 {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%2362a83a' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+/*About Client Page*/
+
+.about_client .client_about_head {
+  color: #62a83a;
+  font-size: 56px;
+  line-height: 120%; /* 67.2px */
+  letter-spacing: 0.56px;
+}
+.about_client .client_about_border::after {
+  content: "";
+  width: 1px;
+  height: 107px;
+  top: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute !important;
+}
+
+.about_EEE .EEE_span {
+  color: #62a83a;
+  font-size: 30px;
+}
+.about_EEE .EEE_heading,.who_we_are h2,.three_pillars h2 {
+  font-size: 56px;
+  line-height: 70px; /* 117.857% */
+}
+.about_EEE .EEE_para ,.who_we_are p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px; /* 188.889% */
+}
+
+/*About Client Page*/
+
+/* Three Pillars */
+
+/* Three Pillars */
+
+
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-  .header ul{
+  .header ul {
     align-items: unset !important;
   }
   br {
@@ -524,10 +592,10 @@ section.tech_sec .owl-carousel .item h4 {
   }
   .goalsandaboutTemplate .show_more,
   .Card .show_more {
-    margin: 27px 0px  !important;
+    margin: 27px 0px !important;
     font-size: 18px !important;
   }
-  .goalsandaboutTemplate .about .show_more{
+  .goalsandaboutTemplate .about .show_more {
     margin-bottom: 82px !important;
   }
   .our_goals > div > img {
@@ -632,7 +700,7 @@ section.tech_sec .owl-carousel .item h4 {
   h2 {
     font-size: 35px !important;
   }
-  .header ul{
+  .header ul {
     align-items: unset !important;
   }
   .service_card {
@@ -641,7 +709,7 @@ section.tech_sec .owl-carousel .item h4 {
   h5 {
     font-size: 18px !important;
     margin: 0px !important;
-}
+  }
   br {
     display: none !important;
   }
@@ -655,13 +723,13 @@ section.tech_sec .owl-carousel .item h4 {
   .services {
     padding: 20px !important;
   }
-  .services p{
+  .services p {
     min-height: 336px !important;
   }
   .Card .owl-nav button {
     display: none !important;
   }
-  .Card .owl-dots{
+  .Card .owl-dots {
     display: block !important;
   }
   .footer-links {
@@ -691,54 +759,52 @@ section.tech_sec .owl-carousel .item h4 {
   }
   .uspsection p span {
     font-size: 14px;
-    
-}
-.uspsection p{
-font-size: 28px;
-}
-.goalsandaboutTemplate .about::after {
-  width: 150px;
-  height: 150px;
-  top: -45px;
-  right: -23px;
-}
-.goalsandaboutTemplate .our_goals::after {
-  width: 150px;
-  height: 150px;
-}
-.serving_globally > div > p:nth-child(2) {
-  font-size: 43px;
-}
-.client img{
-  width: 60%  !important;
-  /* margin: 0 auto !important; */
-}
-.PrivacyandTerms p {
-  font-size: 12px;
-  line-height: 139%;
-}
+  }
+  .uspsection p {
+    font-size: 28px;
+  }
+  .goalsandaboutTemplate .about::after {
+    width: 150px;
+    height: 150px;
+    top: -45px;
+    right: -23px;
+  }
+  .goalsandaboutTemplate .our_goals::after {
+    width: 150px;
+    height: 150px;
+  }
+  .serving_globally > div > p:nth-child(2) {
+    font-size: 43px;
+  }
+  .client img {
+    width: 60% !important;
+    /* margin: 0 auto !important; */
+  }
+  .PrivacyandTerms p {
+    font-size: 12px;
+    line-height: 139%;
+  }
 }
 
-@media only screen and (min-width: 992px) and (max-width:1279px){
+@media only screen and (min-width: 992px) and (max-width: 1279px) {
   .header .navbar-nav .nav-link {
     margin-right: 16px;
+  }
+  .Card .owl-nav {
+    display: none !important;
+  }
+  .Card .owl-dots {
+    display: block !important;
+  }
+  .services p {
+    min-height: 231px !important;
+  }
 }
-.Card .owl-nav{
-  display: none !important;
-}
-.Card .owl-dots{
-  display: block !important;
-}
-.services p{
-  min-height: 231px !important;
-}
-}
-@media only screen and (min-width:1280px){
+@media only screen and (min-width: 1280px) {
   .blogslider button.owl-prev:after {
     left: 26px;
+  }
+  .blogslider button.owl-next:after {
+    left: -30px;
+  }
 }
-.blogslider button.owl-next:after{
-  left: -30px;
-}
-}
-  

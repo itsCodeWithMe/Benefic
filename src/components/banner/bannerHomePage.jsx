@@ -15,14 +15,14 @@ function Banner() {
           </div>
           <div className="col-md-6">
             <div className="card-body">
-              <h2 className="card-title text-white fw-500">
-                <Division Text={JSON.Attributes.heading} />
+              <h1 className="card-title text-white fw-500">
+                <Division Text={JSON.HomepageAttributes.heading} />
                 <span className="fw-500 fst-italic">
-                  {JSON.Attributes.span}
+                  {JSON.HomepageAttributes.span}
                 </span>
-              </h2>
+              </h1>
               <p className="card-text text-white my-4 fw-500">
-                {JSON.Attributes.para}
+                {JSON.HomepageAttributes.para}
               </p>
               <a href="#" className="btn text-white mt-3 p-2 px-4">
                 Get Started

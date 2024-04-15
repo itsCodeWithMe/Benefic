@@ -1,7 +1,11 @@
 {
-   "Attributes": {
+   "HomepageAttributes": {
     "heading":"BENEFIC <br/> MARKETING & DESIGN <br/>",
     "span":"THAT WORKS",
     "para":"We assist you in better managing your Search engine marketing campaign by providing efficient and effective management services. We use our experience to help you gain market share. Using Benefic’s online marketing expertise, we can help you expand your customer base and achieve your company's long-term growth goals."
 
+},
+"AboutPageAttributes":{  
+"heading":"WE LOVE wHAT WE DO AND WE LOVE HELPING OTHERS SUCCEED AT WHAT THEY LOVE TO DO",
+"para":"Benefic solutions was established in the year 2017, It has an inhouse team of Software engineers, graphic designers, application developers, database architects. We promise our clients to provide the best solutions. Our experienced and agile team members put their best efforts in finding innovative and creative ideas for you. Our priority is your satisfaction. <br/> We work as a team and out motto is client satisfaction. Also, we believe in long term relationships and it is mirrored in the fact that our average client relationship is 4.5 years. Technology is changing day by day, it goes hand in hand with users needs. Take advantage of our expertise and experience that can really affect presently and in future."
 }}

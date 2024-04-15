@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Cards from "../components/latest_insights/Cards";
 import Goals_About_Template from "../components/about_and_our_goals/Goals_About_Template";
-import Banner from "../components/banner/banner";
+import Banner from "./banner/bannerHomePage";
 import Client from "../components/clients/client";
 import PrivacyandTerms from "../components/footer/PrivacyandTerms";
 import Footer from "../components/footer/footer";
@@ -19,6 +19,11 @@ import AboutUsImg from "../favicons/AboutUsImg.png";
 import OurGoalsImg from "../favicons/GoalsImage.png";
 import TabSec from "../components/tab_section/tabSec";
 import Form from "./form/form"
+import BannerAbout from "./banner/bannerAbout";
+import Client_about from "./clients/client_about";
+import About_EEE from "./about EEE/about_EEE";
+import Who_we_are  from "./about_who_we_are/Who_we_are"
+import Three_pillars from "./Three Pillars/three_pillars";
 export {
   React,
   RouterProvider,
@@ -37,5 +42,10 @@ export {
   AboutUsImg,
   OurGoalsImg,
   TabSec,
-  Form
+  Form,
+  BannerAbout,
+  Client_about,
+  About_EEE,
+  Who_we_are,
+  Three_pillars
 };
