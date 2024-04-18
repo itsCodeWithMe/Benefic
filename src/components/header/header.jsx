@@ -28,7 +28,7 @@ function Header() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fw-500  text-black" to="#">
+                <Link className="nav-link fw-500  text-black" to="/about">
                   About Us
                 </Link>
               </li>

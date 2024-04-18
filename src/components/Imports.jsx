@@ -24,6 +24,9 @@ import Client_about from "./clients/client_about";
 import About_EEE from "./about EEE/about_EEE";
 import Who_we_are  from "./about_who_we_are/Who_we_are"
 import Three_pillars from "./Three Pillars/three_pillars";
+import High_Quality_Assurance from "./High Quality Assurance/High_Quality_Assurance";
+import Clutch_section from "./Clutch_About/clutch_section"
+
 export {
   React,
   RouterProvider,
@@ -47,5 +50,7 @@ export {
   Client_about,
   About_EEE,
   Who_we_are,
-  Three_pillars
+  Three_pillars,
+  High_Quality_Assurance,
+  Clutch_section
 };

@@ -1,3 +1,61 @@
-{"Attributes":{
-    "Heading":"Our Technolgies"
-}}
+{
+    "HomePage": {
+      "Heading": "Our Technologies",
+      "Tabs": {
+        "Tab1": {
+          "id": "nav-tech-tab",
+          "className": "nav-link active text-black fw-500",
+          "label": "Technology Expertise",
+          "dataBsTarget": "#nav-tech",
+          "ariaControls": "nav-home",
+          "ariaSelected": "true"
+        },
+        "Tab2": {
+          "id": "nav-expertise-tab",
+          "className": "nav-link text-black fw-500",
+          "label": "UX Expertise",
+          "dataBsTarget": "#nav-ui-expertise",
+          "ariaControls": "nav-profile",
+          "ariaSelected": "false"
+        }
+      }
+    },
+    "AboutPage": {
+      "Heading": "Our Focus",
+      "Tabs": {
+        "Tab1": {
+          "id": "nav-frontend-tab",
+          "className": "nav-link active text-black fw-500",
+          "label": "Frontend Stack Technologies",
+          "dataBsTarget": "#nav-frontend",
+          "ariaControls": "nav-home",
+          "ariaSelected": "true"
+        },
+        "Tab2": {
+          "id": "nav-backend-tab",
+          "className": "nav-link text-black fw-500",
+          "label": "Backend Stack Technologies",
+          "dataBsTarget": "#nav-backend",
+          "ariaControls": "nav-profile",
+          "ariaSelected": "false"
+        },
+        "Tab3": {
+          "id": "nav-mobile-tab",
+          "className": "nav-link text-black fw-500",
+          "label": "Mobile Stack Technologies",
+          "dataBsTarget": "#nav-mobile",
+          "ariaControls": "nav-profile",
+          "ariaSelected": "false"
+        },
+        "Tab4": {
+          "id": "nav-expertise-tab",
+          "className": "nav-link text-black fw-500",
+          "label": "UI/UX Technologies",
+          "dataBsTarget": "#nav-ui-expertise",
+          "ariaControls": "nav-profile",
+          "ariaSelected": "false"
+        }
+      }
+    }
+  }
+  

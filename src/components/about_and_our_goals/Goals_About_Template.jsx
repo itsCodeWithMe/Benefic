@@ -1,9 +1,8 @@
-import React from "react";
 import Heading_Para from "../Heading_Para";
 import RightArrow from "../../favicons/Group 9333.png";
 import JSON from "../../json/goalsandabouttemplate.json";
 
-function Goals_About_Template({ classe, image }) {
+function Goals_About_Template({classe, image }) {
   return (
     <section className="goalsandaboutTemplate my-3">
       <div className="container">

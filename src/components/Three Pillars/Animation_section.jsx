@@ -1,37 +1,39 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import Image1 from "../../favicons/image1.png";
 import Image2 from "../../favicons/image2.png";
 import Image3 from "../../favicons/image3.png";
 
-
 function AnimationSection() {
-  useEffect(() => {
-    const images = document.querySelectorAll('.animation-section img');
+  const sectionRef = useRef(null);
 
-    window.addEventListener('scroll', () => {
-      images.forEach((image) => {
-        const rect = image.getBoundingClientRect();
-        if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-          image.classList.add('zoomed');
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("bounce-in");
         } else {
-          image.classList.remove('zoomed');
+          entry.target.classList.remove("bounce-in");
         }
       });
     });
 
+    observer.observe(sectionRef.current);
+
     return () => {
-      window.removeEventListener('scroll', () => {});
+      observer.disconnect();
     };
   }, []);
 
   return (
-    <section className="animation-section">
-      <div>
-        <img src={Image1} alt="Image 1" />
-      </div>
-      <div>
-        <img src={Image2} alt="Image 2" />
-        <img src={Image3} alt="Image 3" />
+    <section ref={sectionRef} className="animation-section  ">
+      <div className="row">
+        <div className="col-md-6 p-0">
+          <img className="w-100" src={Image1} alt="Image 1" />
+        </div>
+        <div className="col-md-6 p-0">
+          <img className="w-100" src={Image2} alt="Image 2" />
+          <img className="w-100" src={Image3} alt="Image 3" />
+        </div>
       </div>
     </section>
   );

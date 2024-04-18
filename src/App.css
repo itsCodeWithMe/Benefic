@@ -2,28 +2,23 @@
   font-family: "Greycliff CF";
 }
 
-.animation-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 50px 0;
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.animation-section img {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.5s ease;
+.bounce-in {
+  animation: bounce-in 1s ease-in-out;
 }
-
-.zoomed {
-  transform: scale(1); /* Scale to 1 when in viewport */
-}
-
-.animation-section img:not(.zoomed) {
-  transform: scale(0.5); /* Scale to 0.5 when not in viewport */
-}
-
-
 
 .fw-600 {
   font-weight: 600;
@@ -194,7 +189,7 @@
 
 .banner_section a,
 .form a,
-.banner_about a {
+.banner_about a,.High_Quality a {
   font-size: 20px;
   border-radius: 58px;
   background: #003d73;
@@ -273,25 +268,25 @@
 .tech_sec h2 {
   font-size: 56px;
 }
-.technology_tabs nav button,
+.tabbing nav button,
 .serving_globally .serving_button {
   font-size: 18px;
   border-radius: 9px !important;
   margin: 0 22px;
   border: 2px solid #62a83a !important;
 }
-.technology_tabs nav button:hover {
+.tabbing nav button:hover {
   color: #000;
 }
-.technology_tabs div#nav-tab {
+.tabbing div#nav-tab {
   border: none;
 }
 
-.technology_tabs button.nav-link.active {
+.tabbing button.nav-link.active {
   background: #62a83a !important;
   color: #fff !important;
 }
-.technology_tabs nav button img,
+.tabbing nav button img,
 .serving_globally .serving_button img {
   width: 15px;
   margin-left: 10px;
@@ -299,7 +294,7 @@
   margin-top: -3px;
 }
 
-.technology_tabs .nav-link.active img {
+.tabbing .nav-link.active img {
   filter: unset;
 }
 section.tech_sec .owl-carousel .item img {
@@ -506,11 +501,14 @@ section.tech_sec .owl-carousel .item h4 {
   color: #62a83a;
   font-size: 30px;
 }
-.about_EEE .EEE_heading,.who_we_are h2,.three_pillars h2 {
+.about_EEE .EEE_heading,
+.who_we_are h2,
+.three_pillars h2 {
   font-size: 56px;
   line-height: 70px; /* 117.857% */
 }
-.about_EEE .EEE_para ,.who_we_are p{
+.about_EEE .EEE_para,
+.who_we_are p {
   font-size: 18px;
   font-weight: 400;
   line-height: 35px; /* 188.889% */
@@ -519,10 +517,82 @@ section.tech_sec .owl-carousel .item h4 {
 /*About Client Page*/
 
 /* Three Pillars */
+.three_pillars .value-card {
+  margin-left: -40px;
+  gap: 10px;
+}
+/* .three_pillars .value-card img{
+    margin-top: 15px;
+  } */
+.three_pillars .card-text-value h3 {
+  font-size: 25px;
+  line-height: 40px; /* 296% */
+}
+.three_pillars .card-text-value p {
+  font-size: 18px;
+  line-height: 33px; /* 183.333% */
+}
 
 /* Three Pillars */
 
+/*Animation Section */
 
+/*Animation Section */
+
+/* High_Quality Assurance */
+.High_Quality, .tech_sec_about{
+  background: #F9F9F9 ;
+}
+.High_Quality h2 {
+  color: #62a83a;
+  font-size: 48px;
+  line-height: 66px; /* 137.5% */
+}
+.High_Quality h3{
+font-size: 30px;
+}
+.High_Quality p{
+font-size: 18px;
+line-height: 36px; /* 200% */
+}
+.High_Quality .project_assurance {
+  background-image: url("/src/favicons/High_Quality_Assurance\ Img.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px;
+} 
+/* High_Quality Assurance */
+
+/*Clutch Section*/
+.clutchSec .clutch_testimonial {
+  border-radius: 20px 20px 20px 0px;
+background: #01315B;
+}
+.clutchSec {
+  border-radius: 15px;
+background: #003D73;
+}
+.clutchSec .clutch_para{
+font-size: 21px;
+line-height: 36px; /* 171.429% */
+}
+.clutchSec .clutch_testimonial {
+font-size: 23px;
+line-height: 36px; /* 156.522% */
+}
+.clutchSec .ReadMorePara{ 
+font-size: 28px;
+line-height: 36px; /* 128.571% */
+}
+.clutchSec .ReadMorePara::after{
+  width: 244px;
+height: 1px;
+background: #FFF;
+position: absolute;
+top: 0;
+}
+/*Clutch Section*/
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .header ul {
     align-items: unset !important;
@@ -612,12 +682,12 @@ section.tech_sec .owl-carousel .item h4 {
     padding-bottom: 20px !important;
   }
 
-  .technology_tabs nav button {
+  .tabbing nav button {
     font-size: 12px;
     margin: 0 4px;
     padding: 8px 14px !important;
   }
-  .technology_tabs nav button img {
+  .tabbing nav button img {
     width: 11px;
     margin-left: 3px;
   }

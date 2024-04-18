@@ -6,7 +6,7 @@ function UxTabs() {
   return (
     <div
       className="tab-pane fade"
-      id="nav-expertise"
+      id="nav-ui-expertise"
       role="tabpanel"
       aria-labelledby="nav-expertise-tab"
     >

@@ -1,4 +1,3 @@
-import React from 'react'
 import WWA_Image from "../../favicons//WWA_image.png"
 import JSON from "../../json/about_EEE_WWA.json"
 import { Division } from '../Heading_Para'
@@ -14,7 +13,7 @@ function Who_we_are() {
                         </p>
                 </div>
                 <div className="col-md-6">
-                    <img src={WWA_Image} alt="" />
+                    <img className="w-100"src={WWA_Image} alt="" />
                 </div>
             </div>
         </div>
