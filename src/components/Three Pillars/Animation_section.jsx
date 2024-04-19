@@ -7,32 +7,30 @@ function AnimationSection() {
   const sectionRef = useRef(null);
 
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("bounce-in");
-        } else {
-          entry.target.classList.remove("bounce-in");
-        }
-      });
-    });
-
-    observer.observe(sectionRef.current);
+    const intervalId = setInterval(() => {
+      const section = sectionRef.current;
+      if (section) {
+        section.classList.add("bounce-in");
+        setTimeout(() => {
+          section.classList.remove("bounce-in");
+        }, 1000); // Remove the class after 1 second (adjust as needed for your animation timing)
+      }
+    }, 2500); // Repeat the animation every 3 seconds (adjust as needed)
 
     return () => {
-      observer.disconnect();
+      clearInterval(intervalId);
     };
   }, []);
 
   return (
-    <section ref={sectionRef} className="animation-section  ">
+    <section ref={sectionRef} className="animation-section">
       <div className="row">
-        <div className="col-md-6 p-0">
-          <img className="w-100" src={Image1} alt="Image 1" />
+        <div className="col-md-5 p-0">
+          <img className="" src={Image1} alt="Image 1" />
         </div>
         <div className="col-md-6 p-0">
-          <img className="w-100" src={Image2} alt="Image 2" />
-          <img className="w-100" src={Image3} alt="Image 3" />
+          <img className="" src={Image2} alt="Image 2" />
+          <img className="" src={Image3} alt="Image 3" />
         </div>
       </div>
     </section>

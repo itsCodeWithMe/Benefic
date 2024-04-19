@@ -11,8 +11,8 @@ import { Division } from "../Heading_Para.jsx";
 function Three_pillars() {
     const images = [image1, image2, image3];
   return (
-         <section className="three_pillars">
-        <div className="container">
+         <section className="three_pillars py-5">
+        <div className="container py-4">
             <div className="row align-items-center justify-content-between">
                 <div className="col-md-6">
                      <AnimationSection />  

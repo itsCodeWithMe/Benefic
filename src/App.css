@@ -200,7 +200,7 @@
   line-height: 26px; /* 144.444% */
 }
 .banner_section a:hover,
-.form a:hover {
+.form a:hover,.High_Quality a:hover {
   background: #003d73 !important;
   color: #fff !important;
 }
@@ -540,7 +540,7 @@ section.tech_sec .owl-carousel .item h4 {
 /*Animation Section */
 
 /* High_Quality Assurance */
-.High_Quality, .tech_sec_about{
+.High_Quality, .tech_sec_about ,.three_pillars{
   background: #F9F9F9 ;
 }
 .High_Quality h2 {
@@ -585,12 +585,14 @@ line-height: 36px; /* 156.522% */
 font-size: 28px;
 line-height: 36px; /* 128.571% */
 }
-.clutchSec .ReadMorePara::after{
+.clutchSec .ReadMorePara::after {
   width: 244px;
-height: 1px;
-background: #FFF;
-position: absolute;
-top: 0;
+  height: 1px;
+  background: #FFF;
+  position: absolute;
+  bottom: -5px;
+  right: -18px;
+  content: "";
 }
 /*Clutch Section*/
 @media only screen and (min-width: 320px) and (max-width: 767px) {

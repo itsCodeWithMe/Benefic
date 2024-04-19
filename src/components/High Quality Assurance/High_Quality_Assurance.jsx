@@ -12,7 +12,7 @@ function High_Quality_Assurance() {
                 <h3 className='fw-600 pt-5 pb-3'><Division Text={JSON.subHeading}/></h3>
                 <p><Division Text={JSON.para}/></p>
             </div>
-            <a href="#" className="btn text-white mt-3 p-2 px-4">
+            <a href="#" className="btn text-white mt-3 p-2 px-4 mb-5">
               Contact Us
             </a>
         </div>

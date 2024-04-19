@@ -6,8 +6,8 @@ import JSON from "../../json/Clutch.json"
 
 function Clutch_section() {
   return (
-    <section className="clutchSec p-5 text-white mx-5">
-        <div className="container">
+    <section className="clutchSec p-5 text-white mx-5 mb-5">
+        <div className="container py-5">
         <div className="backGroundClutch">
             <div className="row">
             <div className="col-md-8">

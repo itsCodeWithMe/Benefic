@@ -66,7 +66,7 @@ function Header() {
                   Case Study
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item my-2">
                 <Link
                   className="nav-link bg-green fw-500 mr-0 btn text-white p-2 px-4"
                   to="/contact"
