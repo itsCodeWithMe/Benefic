@@ -457,7 +457,7 @@ section.tech_sec .owl-carousel .item h4 {
   background: #62a83a !important;
 }
 .testimonials button.owl-next:hover,
-.testimonials button.owl-prev:hover {
+.testimonials   button.owl-prev:hover {
   background-color: unset !important;
   text-decoration: none !important;
   color: unset !important;

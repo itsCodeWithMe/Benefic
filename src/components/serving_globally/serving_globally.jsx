@@ -7,7 +7,9 @@ import Spinner_frame4 from "../../favicons/Frame4.png";
 import Techarrow from "../../favicons/images/techarrow.svg";
 import Serving_JSON from "../../json/serving_globally.json";
 
+
 function Serving_globally() {
+  const Spinner_frames=[Spinner_frame1,Spinner_frame2,Spinner_frame3,Spinner_frame4]
   return (
     <section className="serving_globally my-5">
       <div className="container">
@@ -19,7 +21,7 @@ function Serving_globally() {
             {Object.keys(Serving_JSON.Spinning_section).map((key, index) => (
               <Spinner_global
                 key={key}
-                image={eval(`Spinner_frame${index + 1}`)}
+                image={Spinner_frames[index]}
                 text={Serving_JSON.Spinning_section[key].heading}
                 para={Serving_JSON.Spinning_section[key].para}
                 initialHeading={
