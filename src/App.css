@@ -3,22 +3,25 @@
 }
 
 @keyframes bounce-in {
-  0% {
-    transform: scale(0);
-    opacity: 0;
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.05);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+    }
   }
-  50% {
-    transform: scale(1.2);
-    opacity: 1;
+  .animation-static{
+    display: none !important;
   }
-  100% {
-    transform: scale(1);
-  }
-}
 
-.bounce-in {
-  animation: bounce-in 1s ease-in-out;
-}
+  .bounce-in {
+    animation: bounce-in 1s ease-in-out;
+  }
 
 .fw-600 {
   font-weight: 600;
@@ -177,7 +180,7 @@
   font-size: 54px;
 }
 .banner_about h1 {
-  font-size: 42x;
+  font-size: 42px;
   line-height: 50px;
   text-transform: uppercase;
 }
@@ -512,6 +515,7 @@ section.tech_sec .owl-carousel .item h4 {
   font-size: 18px;
   font-weight: 400;
   line-height: 35px; /* 188.889% */
+  padding-top: 0px !important;
 }
 
 /*About Client Page*/
@@ -620,6 +624,11 @@ line-height: 36px; /* 128.571% */
   .banner_section {
     background-image: none !important ;
     background-color: #62a83a !important;
+  }
+  .banner_about h1{
+    line-height: 35px !important;  
+    font-size:26px !important;
+
   }
   .banner_section a,
   .form a {
@@ -754,7 +763,13 @@ line-height: 36px; /* 128.571% */
   /* Footer */
   .footer h5 {
     margin: 25px 0 20px 0 !important;
+    font-size: 20px  !important;
   }
+  .footer .nav-link {
+    font-size: 18px;
+    line-height: 34px;
+    letter-spacing: 0.2px;
+}
   .PrivacyandTerms {
     text-align: center;
   }
@@ -766,12 +781,113 @@ line-height: 36px; /* 128.571% */
     width: 50% !important;
   }
   /* Footer */
+  .bgClutchImage{
+    width: 100% !important;
+  }
+  .about_client{
+    text-align: center;
+    margin: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about_client .client_about_head{
+    font-size: 40px !important;
+  }
+  .about_client .client_about_border::after{
+    display: none;
+  }
+  .EEE_span{
+    font-size: 16px !important;
+  }
+  .EEE_para{
+    padding-top: 0 !important;
+  }
+  .show_more{
+      font-size: 16px !important;
+      margin-bottom: 0 !important;
+  }
+  .animation-desk{
+    display: none !important;
+  }
+  .animation-static{
+    display: block !important;
+    width: 100% !important;
+  }
+  .about_EEE .EEE_heading, .who_we_are h2, .three_pillars h2 {
+    font-size: 56px;
+    line-height: 42px;
+}
+.three_pillars .value-card {
+  margin-left: 0px !important;
+  gap: 12px !important;
+}
+.value-card .card-text-value h3{
+  font-size: 21px !important;
+  line-height: 30px !important;
+}
+.value-card .card-text-value p{
+  font-size: 16px !important;
+  line-height: 28px !important;
+}
+.three_pillars{
+  padding-bottom: 0 !important;
+}
+.tabbing #nav-tab{
+gap: 10px !important;
+}
+/* .tabbing #nav-tab button{
+  width: 75% !important;
+}  */
+.High_Quality{
+  padding: 0 !important;
+}
+.High_Quality h2{
+  margin: 0px  !important;
+  line-height: 42px !important;
+  padding-bottom: 0 !important;
+}
+.High_Quality .project_assurance {
+  background-image: none !important;
+  padding: 0 !important;
+}
+.High_Quality .project_assurance h3{
+  font-size: 27px !important;
+  line-height: 32px !important;
+}
+.clutchSec .clutch_testimonial {
+  font-size: 14px;
+  line-height: 27px;
+  margin: 10px 0;
+}
+.clutchSec,.clutchSec .clutch_testimonial{
+  padding: 1rem !important;
+}
+.clutchSec .ReadMorePara{
+  padding-top: 20px !important;
+  text-align: center;
+}
+.clutchSec img{
+  padding-bottom: 15px !important;
+}
+.clutchSec .ReadMorePara::after{
+  display: none;
+}
+.clutchImg{
+  width: 100% !important;
+}
+.who_we_are {
+  padding-top: 0 !important;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  h2 {
-    font-size: 35px !important;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .footerDivider{
+    margin: -1px 0 !important;
   }
+  h2 {
+    font-size: 32px !important;
+    line-height: 42px !important;
+}
   .header ul {
     align-items: unset !important;
   }
@@ -798,6 +914,29 @@ line-height: 36px; /* 128.571% */
   .services p {
     min-height: 336px !important;
   }
+  .banner_section{
+    min-height: 733px;
+  }
+  .about_client .client_about_head {
+    font-size: 30px;
+    line-height: 105%;
+}
+.about_client .client_about_head{
+  text-align: center;
+}
+.about_client .client_about_para{
+  text-align: center;
+  font-size: 15px !important;
+}
+.about_client .client_about_border::after {
+  right: -10px;
+}
+.about_EEE .EEE_span {
+  font-size: 18px;
+}
+.about_EEE .EEE_para{
+  padding-top: 0 !important;
+}
   .Card .owl-nav button {
     display: none !important;
   }
@@ -856,6 +995,83 @@ line-height: 36px; /* 128.571% */
     font-size: 12px;
     line-height: 139%;
   }
+  .clutchSec .clutch_testimonial {
+    font-size: 16px !important;
+    line-height: 28px !important;
+    padding: 1rem !important;
+}
+.animation-static{
+  display: block !important;
+  width: 100% !important;
+}
+.animation-desk{
+  display: none !important;
+}
+.banner_about h1 {
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+.three_pillars .value-card {
+  margin-left: 0 !important;
+}
+#nav-tab button {
+  width: 43% !important;
+  margin: 10px !important;
+}
+.High_Quality {
+  padding: 0 !important;
+}
+.High_Quality h2{
+  padding-bottom: 0 !important;
+}
+.High_Quality h3 {
+  font-size: 28px;
+}
+.High_Quality p {
+  font-size: 17px;
+  line-height: 28px;
+}
+.bgClutchImage,.clutchImg{
+  width: 100% !important;
+}.clutchImg{
+  padding-bottom: 0 !important;
+}
+.clutchSec .clutch_para {
+  font-size: 18px;
+  line-height: 32px;
+}
+.clutchSec .ReadMorePara {
+  font-size: 18px;
+  line-height: 38px;
+}
+.clutchSec .ReadMorePara::after {
+  width: 145px;
+  height: 1px; 
+  bottom: 0px;
+  right: 0;
+}
+.three_pillars .card-text-value h3 {
+  font-size: 22px;
+  line-height: 36px;
+}
+.three_pillars .card-text-value p {
+  line-height: 32px;
+}
+.about_client{
+  padding:1rem 0 !important;
+  margin-bottom: 0 !important;
+}
+.show_more {
+  font-size: 18px;
+  margin-bottom: 0 !important;
+}
+.three_pillars{
+  padding-bottom: 0 !important;
+}
+.tech_sec h2{
+  padding-bottom: 1rem !important;
+}
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1279px) {
@@ -869,14 +1085,65 @@ line-height: 36px; /* 128.571% */
     display: block !important;
   }
   .services p {
-    min-height: 231px !important;
+    min-height: 312px !important;
   }
+  .service_card h5 {
+    font-size: 24px;
 }
-@media only screen and (min-width: 1280px) {
+  .show_more {
+    font-size: 18px;
+}
+.goalsandaboutTemplate .about::after {
+  right: -15px;
+}
+.uspsection p span {
+  font-size: 17px;
+}
+.uspsection p{
+  font-size: 46px;
+}
+#nav-tab button {
+  width: 43% !important;
+  margin: 10px !important;
+}
+.clutchSec .clutch_testimonial{
+  padding: 2rem !important;
+}
+.three_pillars .value-card {
+  margin-left: 0 !important;
+  }
+
+  .about_client .client_about_head {
+    font-size: 42px;
+    line-height: 75%;
+}
+.about_client .client_about_border::after {
+  top: -13px;
+  right: -12px;
+}
+.about_EEE .EEE_span {
+  font-size: 25px;
+}
+.EEE_heading br{
+  display: none !important;
+}
+.about_EEE .EEE_heading, .who_we_are h2, .three_pillars h2 {
+  font-size: 42px;
+  line-height: 54px;
+}
+.clutchSec .clutch_testimonial {
+  font-size: 19px;
+  line-height: 34px;
+}
+.footerDivider {
+  margin: -1px 0 !important;
+}
+}
+@media only screen and (min-width: 1280px) and (max-width:1400px){
   .blogslider button.owl-prev:after {
     left: 26px;
   }
   .blogslider button.owl-next:after {
-    left: -30px;
+    left: -30px;    
   }
 }

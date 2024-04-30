@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Image1 from "../../favicons/image1.png";
 import Image2 from "../../favicons/image2.png";
 import Image3 from "../../favicons/image3.png";
+import complete_image from "../../favicons/animation_section_mobile_img.png";
 
 function AnimationSection() {
   const sectionRef = useRef(null);
@@ -23,18 +24,23 @@ function AnimationSection() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="animation-section">
-      <div className="row">
-        <div className="col-md-5 p-0">
-          <img className="" src={Image1} alt="Image 1" />
-        </div>
-        <div className="col-md-6 p-0">
-          <img className="" src={Image2} alt="Image 2" />
-          <img className="" src={Image3} alt="Image 3" />
-        </div>
+    <section className="animation-section">
+      <div className="animation-static">
+        <img className="w-100" src={complete_image} alt="" />
       </div>
-    </section>
-  );
+      <div ref={sectionRef} className="animation-desk text-center">
+      <img className="w-100" src={complete_image} alt="" />
+        {/* <div className="row">
+          <div className="col-md-5 p-0 leftImageBox">
+            <img className="" src={Image1} alt="Image 1" />
+          </div>
+          <div className="col-md-6 p-0  rightImgBox">
+            <img className="" src={Image2} alt="Image 2" />
+            <img className="" src={Image3} alt="Image 3" />
+          </div> 
+  </div>*/}
+      </div>
+      </section>)
 }
 
 export default AnimationSection;

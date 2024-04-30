@@ -23,7 +23,6 @@ function Three_pillars() {
                 <h2 className="pb-4"><Division Text={JSON.heading}/></h2>
 
                 {Object.keys(JSON.Points).map((key, index) => {
-  console.log(index);
   return (
     <Three_Pillars_Values
       key={index}

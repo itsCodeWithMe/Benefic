@@ -11,7 +11,7 @@ function Clutch_section() {
         <div className="backGroundClutch">
             <div className="row">
             <div className="col-md-8">
-                <img src={Clutch_img} alt="" />
+                <img className='bgClutchImage' src={Clutch_img} alt="" />
                 <p className='clutch_para fw-600 py-2'>{JSON.para}</p>
                 <div className="row">
                     <div className="col-md-6">
@@ -23,7 +23,7 @@ function Clutch_section() {
              
             </div>
             <div className="col-md-4 text-end">
-                <img className="pb-5" src={Img} alt="" />
+                <img className="pb-5 clutchImg"  src={Img} alt="" />
                 <p className='pt-5 ReadMorePara position-relative'>Read More Clutch</p>
                 
 
