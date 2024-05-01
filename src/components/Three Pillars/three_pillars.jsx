@@ -20,7 +20,7 @@ function Three_pillars() {
                 </div>
                 <div className="col-md-6">
                 {/* <h2>{JSON.Attributes.heading}</h2> */}
-                <h2 className="pb-4"><Division Text={JSON.heading}/></h2>
+                <h2 className="pb-4 fw-600"><Division Text={JSON.heading}/></h2>
 
                 {Object.keys(JSON.Points).map((key, index) => {
   return (

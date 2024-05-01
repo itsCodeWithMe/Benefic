@@ -1,20 +1,15 @@
 import React from "react";
-import Heading_Para from "../Heading_Para";
 import Allcode from "../../favicons/Allcode.png";
 import Godaddy from "../../favicons/Godaddy.png";
 import Microsoft from "../../favicons/Microsoft.png";
-import Client_JSON from "../../json/client.json";
+import JSON from "../../json/servicepage.json"
 
-function Client() {
+function Helpclient() {
   return (
     <section className="client mb-md-5">
       <div className="container">
-        <Heading_Para
-          Heading={Client_JSON.Attributes.Heading}
-          Para={Client_JSON.Attributes.Para}
-        ></Heading_Para>
-
-        <div className="row align-items-center py-4 text-center">
+      <h2 className='text-black'>{JSON.helpclients.heading}</h2>        
+      <div className="row align-items-center py-4 text-center">
           <div className="col-6 col-lg-3">
             <img className="w-75" src={Allcode} alt="" />
           </div>
@@ -33,4 +28,4 @@ function Client() {
   );
 }
 
-export default Client;
+export default Helpclient;

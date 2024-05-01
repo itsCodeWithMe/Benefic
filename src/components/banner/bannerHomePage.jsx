@@ -15,7 +15,7 @@ function Banner() {
           </div>
           <div className="col-md-6">
             <div className="card-body">
-              <h1 className="card-title text-white fw-500">
+              <h1 className="card-title text-white fw-600">
                 <Division Text={JSON.HomepageAttributes.heading} />
                 <span className="fw-500 fst-italic">
                   {JSON.HomepageAttributes.span}

@@ -11,7 +11,7 @@ export const Division = ({ Text }) => {
   return elements;
 };
 
-function Heading_Para({ Heading, Para }) {
+ function Heading_Para({ Heading, Para }) {
   return (
     <div className="Heading_Para my-4">
       <h2 className="mb-md-3 fw-600">{<Division Text={Heading} />}</h2>

@@ -1,0 +1,19 @@
+{
+    "createidentity":{
+        "heading":"Services that create identities, build brands, and get results",
+        "para":"Establish a solid foundation in the evolving digital space with our technology services. From AI-powered solutions that enhance productivity and simplify decision-making to IoT systems that connect and optimize operations and Web3 applications that redefine trust and decentralization, our service offerings cater to diverse business needs across various sectors."
+    },
+
+    "brandfirst":{
+        "heading":"Brand-first <br/> creative services",
+        "span":"We provide high quality & cost effective services",
+        "para":"Establish a solid foundation in the evolving digital space with our technology services. From AI-powered solutions that enhance productivity and simplify decision-making to IoT systems that connect and optimize operations and Web3 applications"
+    },
+    "outsourceservice":{
+        "heading": "We Provide Outsourced IT Services<br/> For Small & Mid-Sized Business",
+        "para":"lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown ...<br/>Our vertical solutions expertise allows your business to streamline workflow, and increase productivity."
+      },
+      "helpclients":{
+        "heading": "We help our clients solve business problems, increase visibility, and achieve unexpected results"
+      }
+}

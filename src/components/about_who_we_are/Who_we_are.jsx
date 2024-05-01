@@ -7,7 +7,7 @@ function Who_we_are() {
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-md-6">
-                    <h2 className='pb-2'>{JSON.WWA.heading}</h2>
+                    <h2 className='pb-5 fw-600'>{JSON.WWA.heading}</h2>
                     <p className='pt-3 fw-500'>
                         <Division Text={JSON.WWA.para}></Division>
                         </p>

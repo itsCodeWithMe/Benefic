@@ -12,7 +12,7 @@ function client_about() {
             return (
               <div key={key} className={`col-md-2 position-relative ${number === "5" ? "" : "client_about_border"}`}>
                 <p className="client_about_head fw-600">{value.head}</p>
-                <p className="client_about_para fw-500">{value.para}</p>
+                <p className="client_about_para fw-600">{value.para}</p>
               </div>
             );
           })}

@@ -17,7 +17,7 @@ function bannerAbout() {
             <Division Text={JSON.AboutPageAttributes.para} />
             </p>
             <a href="#" className="btn text-white mt-3 p-2 px-4">
-              Get Started
+              Contact Us
             </a>
           </div>
         </div>

@@ -32,10 +32,15 @@ function Header() {
                   About Us
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <Link className="nav-link fw-500  text-black" to="/services">
+                  Services 
+                </Link>
+              </li>
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link fw-500  dropdown-toggle text-black"
-                  to="#"
+                  to="/services"
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -60,7 +65,7 @@ function Header() {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link className="nav-link fw-500  text-black" to="#">
                   Case Study

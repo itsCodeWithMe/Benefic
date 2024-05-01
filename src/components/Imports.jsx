@@ -25,7 +25,12 @@ import About_EEE from "./about EEE/about_EEE";
 import Who_we_are  from "./about_who_we_are/Who_we_are"
 import Three_pillars from "./Three Pillars/three_pillars";
 import High_Quality_Assurance from "./High Quality Assurance/High_Quality_Assurance";
-import Clutch_section from "./Clutch_About/clutch_section"
+import Clutch_section from "./Clutch_About/clutch_section";
+import Bannerservices from "./banner/bannerServices";
+import Serviceidentity from "./servicespage/service_identity";
+import Brandfirst from "./servicespage/brandfirst";
+import Outsourceservices from "./servicespage/outsourced";
+import Helpclient from "./servicespage/help_clients";
 
 export {
   React,
@@ -52,5 +57,10 @@ export {
   Who_we_are,
   Three_pillars,
   High_Quality_Assurance,
-  Clutch_section
+  Clutch_section,
+  Bannerservices,
+  Serviceidentity,
+  Brandfirst,
+  Outsourceservices,
+  Helpclient
 };

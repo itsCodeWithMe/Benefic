@@ -28,17 +28,16 @@ function AnimationSection() {
       <div className="animation-static">
         <img className="w-100" src={complete_image} alt="" />
       </div>
-      <div ref={sectionRef} className="animation-desk text-center">
-      <img className="w-100" src={complete_image} alt="" />
-        {/* <div className="row">
-          <div className="col-md-5 p-0 leftImageBox">
+      <div ref={sectionRef} className="animation-desk">
+        <div className="row">
+          <div className="col-md-5 p-0">
             <img className="" src={Image1} alt="Image 1" />
           </div>
-          <div className="col-md-6 p-0  rightImgBox">
+          <div className="col-md-6 p-0">
             <img className="" src={Image2} alt="Image 2" />
             <img className="" src={Image3} alt="Image 3" />
-          </div> 
-  </div>*/}
+          </div>
+        </div>
       </div>
       </section>)
 }

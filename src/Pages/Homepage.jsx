@@ -11,8 +11,8 @@ function Homepage() {
       <Imports.TabSec></Imports.TabSec>
       <Imports.Serving_globally></Imports.Serving_globally>
       <Imports.Cards></Imports.Cards>
-      <Imports.Client></Imports.Client>
       <Imports.TestimonialSec></Imports.TestimonialSec>
+      <Imports.Client></Imports.Client>
       <Imports.Form_section></Imports.Form_section>
    </>
   )

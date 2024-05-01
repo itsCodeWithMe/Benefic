@@ -4,7 +4,7 @@ import JSON from "../../json/goalsandabouttemplate.json";
 
 function Goals_About_Template({classe, image }) {
   return (
-    <section className="goalsandaboutTemplate my-3">
+    <section className="goalsandaboutTemplate my-5">
       <div className="container">
         <div
           className={`${classe} position-relative row justify-content-between align-items-center`}

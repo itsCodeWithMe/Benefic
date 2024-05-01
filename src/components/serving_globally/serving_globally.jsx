@@ -34,7 +34,7 @@ function Serving_globally() {
             ))}
           </div>
         </div>
-        <button className="serving_button text-black fw-500 px-3 py-2 mx-0 mb-5">
+        <button className="serving_button text-black fw-500 px-3 py-2 mx-0 mb-5 bg-white">
           Get a Quote
           <img src={Techarrow} />
         </button>
