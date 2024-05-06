@@ -3,8 +3,14 @@ import EEE_image from "../../favicons/EEE.png"
 import JSON from "../../json/about_EEE_WWA.json"
 import RightArrow from "../../favicons/Group 9333.png";
 import { Division } from '../Heading_Para';
+import { useLocation } from 'react-router-dom';
+
 
 function about_EEE() {
+  const location = useLocation();
+  const slug = location.pathname;
+  const aboutBool = (slug === "/about");
+  const uiuxBool = (slug === "/ui-ux-designer");
   return (
     <section className="about_EEE py-5">
         <div className="container">
@@ -19,13 +25,13 @@ function about_EEE() {
                     <h2 className='EEE_heading fw-600'>
                     <Division Text={JSON.EEE.heading}></Division></h2>
                     <p className='EEE_para pt-3'>{JSON.EEE.para}</p>
-                    <button
+                   {aboutBool    &&  <button
                   type="button"
                   className="show_more d-flex align-items-center my-5 btn text-white"
                 >
                   Get a Qoute &nbsp;&nbsp;
                   <img className="arrow_image" src={RightArrow} alt="" />
-                </button>
+                </button>}
                 </div>
             </div>
         </div>

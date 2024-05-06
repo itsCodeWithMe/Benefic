@@ -11,5 +11,10 @@
     "ServicesPageAttr": {
         "heading": "OUR <br/> SERVICES",
         "para": "Establish a solid foundation in the evolving digital space with our technology services. From AI-powered solutions that enhance productivity and simplify decision-making to IoT systems that connect and optimize operations and Web3 applications that redefine trust and decentralization, our service offerings cater to diverse business needs across various sectors."
+    },
+    "UIUX":{
+        "heading":"UI/UX <br/>Designer",
+        "para":"Design and alliance go parallelly together. We at Benefic does the organized research of user requirements, to have pragmatic context and better understanding of designing process. This uncovers valuable information. The user experience defines how hard or easy it is to communicate with interface elements. Our UI design team focuses on designing visibly engaging, brand nourishing interfaces. Benefic provides you with solutions that are customized as per your requirement, mirrors customers value and your business objectives.", 
+        "subtext":"Make your journey seamless with our impressive designs."
     }
 }

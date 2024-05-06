@@ -1,6 +1,7 @@
 * {
   font-family: "Greycliff CF";
   }
+
   
   @keyframes bounce-in {
   0% {
@@ -149,8 +150,13 @@
   }
   
   /* Goals and About template*/
-  
+  .help_client {
+    background-image: url();
+  }
   /* Service card*/
+  .help_client h2{
+    font-size: 46px;
+    }
   .service_card img {
   width: 20% !important;
   margin-right: 20px !important;
@@ -603,6 +609,19 @@
   content: "";
   }
   /*Clutch Section*/
+/* UI UX page */
+.banner_uiux h1 {
+  font-size: 60px !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 74px;
+}
+.banner_uiux  h4 {
+  font-size: 25px;
+  max-width: 383px;
+}
+/* UI UX page */
+
   /*Service Page*/
   .max_width{
     max-width: 760px;
@@ -624,6 +643,7 @@
 }
 .banner_service .image img {
   border-radius: 13px;
+width: 100%;
 }
 .serviceidentity {
   background-color: #62A83A;
@@ -635,19 +655,54 @@
 }
 .brandfirst h2 {
   font-size: 60px !important;
+  line-height: 1em !important;
 }
 .brandfirst .EEE_span {
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1em;
 }
-.brandfirst {
+.brandfirst,.help_client {
   background-image: url(/src/favicons/mix_eclipse.webp);
   background-repeat: no-repeat;
   background-position: right center;
 }
+.help_client {
+  background-position: right bottom;
+}
+
+.help_client img {
+  filter: grayscale(1);
+}
+
+.help_client img:hover {
+  filter: unset;
+}
+/* Custom CSS for hover dropdown */
+.navbar .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
   /*Service Page*/
   
   @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .brandfirst h2,.brandfirst .EEE_span {
+      font-size: 28px !important;
+  }
+    .banner_service .col-md-6:first-child {
+      padding-right: 0px;
+      padding-bottom: 25px;
+  }
+  .serviceidentity  .col-md-7.ps-5,.brandfirst .col-md-7.ps-5 {
+    padding-left: 1rem!important;
+}
+.serviceidentity  .cards_services,.help_client,.help_client .container {
+  padding-top: 0 !important;
+}
+.brandfirst,.help_client{
+  padding-bottom: 0 !important;
+}
+.High_Quality.outsource {
+  padding: 15px !important;
+}
     .header .navbar-nav .nav-item:last-child .nav-link 
   { 
     background: unset !important;
@@ -1068,6 +1123,15 @@
   line-height: 34px;
   text-transform: uppercase;
   }
+  .banner_service h1 {
+    font-size: 35px;
+}
+.brandfirst h2 {
+  font-size: 40px !important;
+}
+.brandfirst .EEE_span {
+  font-size: 30px;
+}
   .three_pillars .value-card {
   margin-left: 0 !important;
   }
@@ -1090,7 +1154,8 @@
   }
   .bgClutchImage,.clutchImg{
   width: 100% !important;
-  }.clutchImg{
+  }
+  .clutchImg{
   padding-bottom: 0 !important;
   }
   .clutchSec .clutch_para {
@@ -1122,12 +1187,15 @@
   font-size: 18px;
   margin-bottom: 0 !important;
   }
-  .three_pillars{
+  .three_pillars,.brandfirst,.brandfirst .container,.help_client{
   padding-bottom: 0 !important;
   }
   .tech_sec h2{
   padding-bottom: 1rem !important;
   }
+  .outsource {
+    padding: 50px 20px 0 !important;
+}
   }
   
   @media only screen and (min-width: 992px) and (max-width: 1279px) {
@@ -1203,3 +1271,8 @@
   left: -30px;
   }
   }
+@media only screen and (min-width:1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1440px;
+}
+}

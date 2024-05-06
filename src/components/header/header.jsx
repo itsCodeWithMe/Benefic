@@ -32,40 +32,15 @@ function Header() {
                   About Us
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link fw-500  text-black" to="/services">
-                  Services 
-                </Link>
-              </li>
-              {/* <li className="nav-item dropdown">
-                <Link
-                  className="nav-link fw-500  dropdown-toggle text-black"
-                  to="/services"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li class="nav-item dropdown">
+                <Link class="nav-link fw-500 text-black dropdown-toggle" to="/services" id="navbarDropdown" aria-expanded="false">
                   Our Services
                 </Link>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <Link className="dropdown-item text-black" to="#">
-                      Service 1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link className="dropdown-item text-black" to="#">
-                      Service 2
-                    </Link>
-                  </li>
-                  <li>
-                    <a className="dropdown-item text-black" to="#">
-                      Service 3
-                    </a>
-                  </li>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><Link class="dropdown-item" to="/ui-ux-designer">UI/UX Designer</Link></li>
+                  <li><Link class="dropdown-item" href="#">Web Application</Link></li>
                 </ul>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link className="nav-link fw-500  text-black" to="#">
                   Case Study

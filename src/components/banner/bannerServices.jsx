@@ -1,7 +1,9 @@
 import React from 'react'
-import BannerImage from '../../favicons/Service_Banner.webp'
+import BannerImage from '../../favicons/Service_Banner1.webp'
 import JSON from "../../json/banner.json";
 import { Division } from "../Heading_Para";
+import Slideshow from "../banner/image_slideshow";
+
 
 function Bannerservice() {
   return (
@@ -25,7 +27,9 @@ function Bannerservice() {
       
       <div className="col-md-6">
           <div className="image">
-            <img className="w-100" src={BannerImage} alt="Service" />
+            {/* <img className="w-100" src={BannerImage} alt="Service" /> */}
+            <Slideshow></Slideshow>
+
           </div>
         </div>
     </div>
